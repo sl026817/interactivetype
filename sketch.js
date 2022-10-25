@@ -46,7 +46,7 @@ fill (colorPicker.color())
   
    if (keyIsPressed === true) {    //eraser tool - hold any key and drag mouse around to use eraser
         noStroke();
-        fill(102);
+        fill(255);
         ellipse(mouseX,mouseY,val2, val2)
         x=mouseY;
         y=mouseX;
